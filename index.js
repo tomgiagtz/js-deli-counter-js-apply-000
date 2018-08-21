@@ -1,6 +1,6 @@
+var ticketNumber = 0;
 function takeANumber(line) {
-  //add the name to the line
-  var currNum = line.length;
+
   line.push(currNum + 1);
   
   var num = line.length;
