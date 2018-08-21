@@ -6,7 +6,7 @@ function takeANumber(line) {
   var num = line.length;
   
   //welcome and return number in line
-  return "Welcome, You are number " + num + " in line.";
+  return "Welcome, You have number " + ticketNumber;
   
 }
 
