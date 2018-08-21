@@ -1,7 +1,7 @@
 var ticketNumber = 0;
 function takeANumber(line) {
 
-  line.push(ticketNumber + 1);
+  line.push(ticketNumber++);
   
   //welcome and return number in line
   return "Welcome, You have number " + ticketNumber;
