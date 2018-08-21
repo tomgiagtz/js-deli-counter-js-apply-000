@@ -16,7 +16,7 @@ function nowServing(line) {
     return "There is nobody waiting to be served!";
   } 
   //return currently served, remove patron from line with shift
-  return "Currently serving " + line.shift() +".";
+  return "Currently serving number: " + line.shift() +".";
 }
 
 function currentLine(line) {
