@@ -1,7 +1,7 @@
 var ticketNumber = 0;
 function takeANumber(line) {
 
-  line.push(currNum + 1);
+  line.push(ticketNumber + 1);
   
   var num = line.length;
   
