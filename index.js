@@ -3,8 +3,6 @@ function takeANumber(line) {
 
   line.push(ticketNumber + 1);
   
-  var num = line.length;
-  
   //welcome and return number in line
   return "Welcome, You have number " + ticketNumber;
   
